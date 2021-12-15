@@ -132,7 +132,7 @@ wsServer.on('connection', (ws, req) => {
     })
     .forEach(o => o.send(JSON.stringify({type: 'add user'})));
 
-});
+}); 
 
 app.use(router.routes()).use(router.allowedMethods());
 const port = process.env.PORT || 7070;

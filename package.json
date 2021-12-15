@@ -6,12 +6,8 @@
     "prestart": "yarn install",
     "start": "forever server.js",
     "watch": "forever -w server.js"
-    
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/kassiopea-coder/ahj-diplom-back.git"
-  },
+  "repository": "git@github.com:kassiopea-coder/ahj-diplom-back.git",
   "author": "Nadezhda",
   "license": "MIT",
   "dependencies": {
@@ -23,13 +19,9 @@
     "koa-static": "5.0.0",
     "node-fetch": "2.6.0",
     "uuid": "8.3.2",
-    "ws": "7.4.3",
-    "yarn": "^1.22.17 "
+    "ws": "7.4.3"
   },
   "engines": {
     "node": "14.x"
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.9.1"
   }
 }
